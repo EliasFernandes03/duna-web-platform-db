@@ -1,0 +1,25 @@
+{
+    "name": "duna-web-platform-db",
+    "version": "1.0.0",
+    "description": "",
+    "main": "build/index.js",
+    "scripts": {
+        "build": "tsc",
+        "format": "prettier --write ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/EliasFernandes03/duna-web-platform-db.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "prettier": "^3.0.3",
+        "typescript": "^5.1.6"
+    },
+    "dependencies": {
+        "dotenv": "^16.3.1",
+        "duna-web-platform-error-defs": "github:Duna-System/duna-web-platform-error-defs",
+        "mongoose": "^7.6.2"
+    }
+}

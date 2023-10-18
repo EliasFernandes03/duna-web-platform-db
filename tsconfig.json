@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "skipLibCheck": true,
+        "target": "es2016",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "allowJs": false,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "outDir": "./build",
+        "rootDir": "src",
+        "declaration": true
+    },
+    "include": ["src/**/*"]
+}
