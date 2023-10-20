@@ -1,3 +1,4 @@
 import { createCollectionWithValidation } from './validationDB';
 import { UserModel, IUsers } from './validationApp';
-export { createCollectionWithValidation, UserModel, IUsers };
+import { connectToDatabase, checkConnectionStatus, subscribeToDatabaseEvents } from './connection';
+export { createCollectionWithValidation, connectToDatabase, checkConnectionStatus, subscribeToDatabaseEvents, UserModel, IUsers };
